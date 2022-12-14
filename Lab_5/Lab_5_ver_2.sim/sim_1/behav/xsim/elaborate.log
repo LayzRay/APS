@@ -1,0 +1,23 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 7554c144d8d643a7992ae2d46dc05236 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_miriscv_top_behav xil_defaultlib.tb_miriscv_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "E:/Vivado/AMS/Lab_5_ver_2/Lab_5_ver_2.srcs/sim_1/imports/AMS/tb_miriscv_top.v" Line 3. Module tb_miriscv_top has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "E:/Vivado/AMS/Lab_5_ver_2/Lab_5_ver_2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.RISC_V_pac
+Compiling module xil_defaultlib.Main_decoder
+Compiling module xil_defaultlib.Register_file
+Compiling module xil_defaultlib.ALU_RISC_V_version_2
+Compiling module xil_defaultlib.Load_Store_Unit
+Compiling module xil_defaultlib.RISC_V_Processor
+Compiling module xil_defaultlib.miriscv_ram(RAM_SIZE=512,RAM_INI...
+Compiling module xil_defaultlib.miriscv_top(RAM_SIZE=512,RAM_INI...
+Compiling module xil_defaultlib.tb_miriscv_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_miriscv_top_behav
